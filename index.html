@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" href="./style/animation.css">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <link rel="icon" href="./img/spotify-logo.png">
+</head>
+
+<body>
+
+
+    <div class="login-container">
+        <div class="reg-hider">
+            <a href="http://127.0.0.1:5500/"> <img src="./img/spotify.svg" alt=""></a>
+            <h3>Sign in to Spotify to continue.</h3>
+        </div>
+
+        <form action="#" class="login-form" method="get">
+            <label for="">
+                <p>Username</p>
+                <input type="text" required placeholder="Username" class="login-name" minlength="2" maxlength="8"
+                    name="username">
+            </label>
+            <label for="">
+                <p>Password</p>
+                <input type="password" required placeholder="Password" class="login-pass" name="password">
+            </label>
+            <button href="#" class="log-btn">To come in</button>
+        </form>
+
+
+
+    </div>
+
+
+    <div class="registor-container">
+        <div class="reg-hider">
+            <a href="http://127.0.0.1:5500/"> <img src="./img/spotify.svg" alt=""></a>
+            <h3>Register and listen for free</h3>
+        </div>
+
+        <form action="#" method="post" class="reg-form">
+            <label for="">
+                <p>your name</p>
+                <input type="text" required placeholder="Enter your name" class="name-inp" minlength="2" maxlength="8">
+            </label>
+            <label for="">
+                <p>Create a password</p>
+                <input type="password" required placeholder="Create a password" class="regpass">
+            </label>
+            <label for="">
+                <p>Acept password</p>
+                <input type="password" required placeholder="Acept password" class="acppass">
+            </label>
+            <button href="#" class="reg-btn">Register</button>
+        </form>
+
+
+
+    </div>
+
+
+    <div class="playlist-mdl">
+        <form class="form-pl">
+            <div class="creat-pl-frm">
+                <p class="cross">X</p>
+
+                <div class="photo-pl">
+                    <div class="photo">
+
+                        <img src="" id="chosen-image">
+
+
+                    </div>
+                    <input type="file" id="upload-button" accept="image/*" class="inp-photo" required>
+                </div>
+                <div class="playlist-name">
+                    <input type="text" placeholder="Name playlist" class="name-playlist" required>
+                    <button type="submit" class="playlist-btn">Create</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+    <div class="indx">
+
+        <div class="brg-box">
+            <a href="#home">
+                <div class="as-btn  home2">
+                    <img src="./img/bold-home.svg" alt="" class="home-img">
+                    <p class="">Home</p>
+                </div>
+            </a>
+            <a href="#home">
+                <div class="as-btn search2">
+                    <img src="./img/search-menu.svg" alt="" class="search-im">
+                    <p class="">Search</p>
+                </div>
+            </a>
+            <a href="#home">
+                <div class="as-btn lib2">
+                    <img src="./img/libary.svg" alt="" class="libary-im">
+                    <p class="">Library</p>
+                </div>
+            </a>
+
+            <a href="#home">
+                <div class="as-btn like2">
+                    <img src="./img/like.svg" alt="" class="like-im">
+                    <p class="">Liked Songs</p>
+                </div>
+            </a>
+        </div>
+
+
+
+
+        <header>
+            <div class="srch">
+                <div class="lft-btn">
+                    <a href="#home"><img class="sl-arrow-lft hed-left" src="./img/Forward-top2.svg" alt=""></a>
+                </div>
+                <div class="rg-btn">
+                    <a href="#home"> <img class="hed-right" src="./img/Forward-top2.svg" alt=""></a>
+                </div>
+                <img src="./img/icon-srch.svg" alt="" class="srch-icon">
+                <a href="#home"><input type="text" class="inp-srch" placeholder="Artists, songs, or podcasts"></a>
+            </div>
+
+            <div class="head-libar">
+                <p class="hover-libar">Playlist</p>
+                <p>Podcasts</p>
+                <p>Artists</p>
+                <p>Albums</p>
+            </div>
+
+
+
+            <div class="brg-menu">
+                <span class="tops"></span>
+                <span class="centers"></span>
+                <span class="bottoms"></span>
+            </div>
+
+            <div class="all-acount">
+                <div class="profile">
+                    <div class="my-acc">
+                        <img src="./img/fularsiz.png" alt="">
+                        <p class="name-your"></p>
+
+                        <div class="lose">
+                            <div class="viyti">
+                                <p>Log out<span><img src="./img/exit.svg" alt=""></span></p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="kolokol">
+                        <img src="./img/kolokol.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="acount">
+                    <button class="one sign">
+                        <p>Sign up </p>
+                    </button>
+                    <button class="one login">
+                        <p>Log in</p>
+                    </button>
+                </div>
+            </div>
+
+
+
+        </header>
+
+
+
+        <div class="loader">
+            <div class="loader_inner"></div>
+        </div>
+
+        <section class="content">
+            <div class="jkr" id="home"></div>
+            <div class="container">
+
+                <div class="home-cont">
+
+
+                    <div class="plays">
+                        <a href="#home">
+                            <div class="plays-btn like-dot">
+                                <img src="./img/dot-like.svg" alt="">
+                                <p>Liked Songs</p>
+                            </div>
+                        </a>
+                        <div class="plays-btn">
+                            <img src="./img/dot-mus.svg" alt="">
+                            <p>Recently Played</p>
+                        </div>
+                        <div class="plays-btn">
+                            <img src="./img/dot-friends.svg" alt="">
+                            <p>Friends Played</p>
+                        </div>
+                    </div>
+
+                    <div class="txt-cont1">
+                        <h3 class="zag1">Made For <span class="made-your-name"></span></h3>
+                        <p class="all1">SEE ALL</p>
+                    </div>
+
+                    <div class="kivilkim">
+                        <div class="wrap1">
+                            <a href="#home">
+                                <div class="box dis-weekly">
+                                    <img src="https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/aAbca4VNfzWuUCQ_FGiEFA==/bmVuZW5lbmVuZW5lbmVuZQ=="
+                                        alt="">
+                                    <p>Discover Weekly</p>
+                                    <p class="imena">Your weekly mixtape of fresh music. Enjoy new...</p>
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div class="box mix1">
+                                    <img src="./img/mix1.png" alt="">
+                                    <p>Daily Mix 1</p>
+                                    <p class="imena"></p>
+
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div class="box mix2">
+                                    <img src="./img/mix2.png" alt="">
+                                    <p>Daily Mix 2</p>
+                                    <p class="imena"></p>
+                                </div>
+                            </a>
+                            <div class="box">
+                                <img src="./img/mix3.png" alt="">
+                                <p>Daily Mix 3</p>
+                                <p class="imena"></p>
+                            </div>
+                            <div class="box mx4">
+                                <img src="./img/mix4.png" alt="">
+                                <p>Daily Mix 4</p>
+                                <p class="imena"></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="txt-cont1">
+                        <h3 class="zag1">Your <span class="shows-txt">Shows</span></h3>
+                        <p class="all1">see all</p>
+                    </div>
+                    <div class="kivilkim">
+                        <div class="wrap1">
+                            <div class="box two-pg dis-weekly">
+                                <img src="./img/uxminimal.png" alt="">
+                                <p>UX Minimal</p>
+
+                            </div>
+                            <div class="box two-pg">
+                                <img src="./img/otarzmi.png" alt="">
+                                <p>O Tarz Mı?</p>
+
+
+                            </div>
+                            <div class="box two-pg">
+                                <img src="./img/acik.png" alt="">
+                                <p>Açık Bilim</p>
+
+                            </div>
+                            <div class="box two-pg">
+                                <img src="./img/des.png" alt="">
+                                <p>Design Gost</p>
+                            </div>
+                            <div class="box fularsiz two-pg ">
+                                <img src="./img/fularsiz.png" alt="">
+                                <p>Fularsız Entellik</p>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                    <div class="txt-cont1">
+                        <h3 class="zag1">Suggested <span class="suggested-txt">Artists</span></h3>
+                        <p class="all1">see all</p>
+                    </div>
+                    <div class="kivilkim">
+                        <div class="wrap1">
+                            <a href="#home">
+                                <div class="box two-pg  theweekend">
+                                    <img src="./img/theweekend.png" alt="">
+                                    <p>The Weeknd</p>
+
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div class="box two-pg lil-peep">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5eb6685f03de475c4efb27da3c4" alt="">
+                                    <p>Lil Peep</p>
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div class="box two-pg juicewrld">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5eb1908e1a8b79abf71d5598944" alt="">
+                                    <p>Juice WRLD</p>
+
+                                </div>
+                            </a>
+                            <a href="#home">
+                                <div class="box two-pg eminemm">
+                                    <img src="https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b" alt="">
+                                    <p>Eminem</p>
+                                </div>
+                            </a>
+                            <div class="box xtent two-pg">
+                                <img src="https://i.scdn.co/image/ab6761610000e5ebf0c20db5ef6c6fbe5135d2e4" alt="">
+                                <p>Xxxtentacion</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="search-content">
+
+                    <div class="search-txt">
+                        <h3>Browse all</h3>
+                        <div class="search-items">
+                            <img src="./img/searchsrc1.png" alt="">
+                            <img src="./img/searchsrc2.png" alt="">
+                            <img src="./img/searchsrc3.png" alt="">
+                            <img src="./img/searchsrc4.png" alt="">
+                            <img src="./img/searchsrc5.png" alt="">
+                            <img src="./img/searchsrc6.png" alt="">
+                            <img src="./img/searchsrc7.png" alt="">
+                            <img src="./img/searchsrc8.png" alt="">
+                            <img src="./img/searchsrc9.png" alt="">
+                            <img src="./img/searchsrc10.png" alt="">
+                            <img src="./img/searchsrc11.png" alt="">
+                            <img src="./img/searchsrc12.png" alt="">
+                            <img src="./img/searchsrc13.png" alt="">
+                            <img src="./img/searchsrc14.png" alt="">
+                            <img src="./img/searchsrc15.png" alt="">
+                            <img src="./img/searchsrc16.png" alt="">
+                            <img src="./img/searchsrc17.png" alt="">
+                            <img src="./img/searchsrc18.png" alt="">
+                            <img src="./img/searchsrc19.png" alt="">
+                            <img src="./img/searchsrc20.png" alt="">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="libary">
+                    <div class="libary-head">
+                        <h3>Playlists</h3>
+                        <div class="lib-inp">
+
+                            <div class="custom-order">
+                                <p>Custom order </p>
+                                <img src="./img/strelka.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrap-playlist"></div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="weekly">
+                <div class="weekly-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/aAbca4VNfzWuUCQ_FGiEFA==/bmVuZW5lbmVuZW5lbmVuZQ=="
+                                alt="" class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>Discover Weekly</h3>
+                                <p>Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you.
+                                    Updates every Monday.</p>
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="gt">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="liked-songs">
+                <div class="weekly-head liked-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="./img/likedsrc.png" alt="">
+
+                            <div class="weekly-txt">
+                                <p class="liked-songs-txt">Playlist</p>
+                                <h3>Liked Songs</h3>
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly liksc">
+                            <p>TITLE</p>
+
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr class="liksch">
+                        <div class="liked-songs-cont"></div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="mix1-cont">
+                <div class="weekly-head mx1">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="img/mix1.png" alt="" class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>Mix1</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="mix1-content">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mix2-cont">
+                <div class="weekly-head mx2">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="img/mix2.png" alt="" class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>Mix2</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="mix2-content">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="peep">
+                <div class="weekly-head lil-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="https://i.scdn.co/image/ab6761610000e5eb6685f03de475c4efb27da3c4" alt=""
+                                class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>Lil Peep</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="lil-cont">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="weekend">
+                <div class="weekly-head weekend-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="./img/theweekend.png" alt="" class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>The Weeknd</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="weekend-cont">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="juice">
+                <div class="weekly-head juice-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="https://i.scdn.co/image/ab6761610000e5eb1908e1a8b79abf71d5598944" alt=""
+                                class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>Juice WRLD</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="juice-cont">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="eminem">
+                <div class="weekly-head emin-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b" alt=""
+                                class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+                                <p>playlıst</p>
+                                <h3>Eminem</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/like-mus.svg" alt="">
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="emin-cont">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="search-res">
+                <div class="weekly-head search-head">
+                    <div class="container">
+                        <div class="top-weekly">
+                            <img src="./img/lupa .jpg" alt="" width="100px" class="color-img" crossorigin>
+
+                            <div class="weekly-txt">
+
+                                <h3>Search</h3>
+
+
+                            </div>
+                        </div>
+                        <div class="weekly-btns">
+                            <div class="left-week-icons">
+                                <div class="green-dot">
+                                    <img src="./img/play-dp.svg" alt="" class="big-pp">
+                                </div>
+                                <img src="./img/down-icon.svg" alt="">
+                                <img src="./img/dots.svg" alt="">
+                            </div>
+
+                            <div class="right-week-icons">
+
+
+                                <div class="custom-order">
+                                    <p>Custom order </p>
+                                    <img src="./img/strelka.svg" alt="">
+                                </div>
+                                <img class="fill-btn" src="./img/fill.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="txts-weekly">
+                            <p>TITLE</p>
+                            <p class="album-block">Album</p>
+                            <p class="date-block">date added</p>
+                            <img src="./img/time.svg" alt="">
+                        </div>
+                        <hr>
+                        <div class="search-cont">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+        <aside class="friends-activ sas">
+            <div class="friac-icons">
+                <img src="./img/friend-activ.svg" alt="">
+                <div class="lr-active">
+                    <img src="./img/left-arow.svg" alt="" class="lft-arr-fr">
+                    <img src="./img/right-arrow.svg" alt="" class="rg-arr-fr">
+                </div>
+            </div>
+
+
+        </aside>
+
+
+
+
+
+
+
+
+
+
+
+        <aside class="left-aside dpl ">
+            <div class="l-as">
+                <div class="aside-btns">
+                    <div class="logs">
+                        <a href="http://127.0.0.1:5500/">
+                            <div class="spoti-log">
+                                <div class="big-logs">
+                                    <img src="./img/spotify-green.svg" alt="" class="green-spot">
+                                    <img class="log-spot" src="./img/spotify.svg" alt="">
+                                </div>
+                                <img src="./img/logo-mini.svg" alt="" class="mini-logot">
+                            </div>
+                        </a>
+
+                        <div class="arrows">
+                            <img src="./img/left-arow.svg" alt="" class="left-arrow ">
+                            <img src="./img/right-arrow.svg" alt="" class="right-arrow" width="16px" height="16px">
+                        </div>
+                    </div>
+
+                    <a href="#home">
+                        <div class="as-btn  bg-btns home">
+                            <img src="./img/bold-home.svg" alt="" class="home-img">
+                            <p class="hm">Home</p>
+                        </div>
+                    </a>
+                    <a href="#home">
+                        <div class="as-btn search">
+                            <img src="./img/search-menu.svg" alt="" class="search-im">
+                            <p class="sr">Search</p>
+                        </div>
+                    </a>
+                    <a href="#home">
+                        <div class="as-btn lib">
+                            <img src="./img/libary.svg" alt="" class="libary-im">
+                            <p class="lb">Library</p>
+                        </div>
+                    </a>
+                    <hr class="line">
+
+                    <a href="#home">
+                        <div class="as-btn like">
+                            <img src="./img/like.svg" alt="" class="like-im">
+                            <p class="lk">Liked Songs</p>
+                        </div>
+                    </a>
+                    <hr class="line">
+
+                    <div class="playlist">
+                        <div class="txt-pl">
+                            <p>Playlists</p>
+                            <img src="./img/dots.svg" alt="" class="dot-menu">
+                            <div class="playlist-menu">
+                                <p>Select</p>
+                                <p class="creat-plys">Create a Playlist</p>
+                                <p>Create a Folder</p>
+                            </div>
+                        </div>
+                        <div class="playlist-icons">
+                            <img src="./img/papka.svg" alt="">
+                            <img src="./img/lines.svg" alt="">
+                        </div>
+                        <div class="janr">
+
+
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.spotify.com/uz/download/windows/"><button class="btn-menu"> <span
+                            class="dwd-txt">Download app</span><img class="dwd" src="./img/DownloadSimple.svg" alt=""
+                            width="16px" height="16px"></button></a>
+            </div>
+        </aside>
+
+        <div class="mob-type2">
+            <img src="img/down.svg" alt="" class="sver">
+
+            <div class="album-mob">
+                <img src="#" alt="" class="album-mb">
+            </div>
+
+            <div class="mobile2">
+                <div class="cont-pl">
+                    <div class="nazvs-mob">
+                        <div class="isp-txt">
+                            <p class="nazv-mob"></p>
+                            <p class="isp-mob"></p>
+                        </div>
+                        <img src="./img/like-mus.svg" alt="" class="like-mob2">
+                    </div>
+                    <div class="top-cn-icons2">
+                        <svg class="random2" title="random" width="20" height="20" viewBox="0 0 16 16" fill="white"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.45205 6.62727L5.12329 5.86364C4.06849 4.62273 2.53425 3.95455 1 3.95455V4.90909C2.24658 4.90909 3.49315 5.48182 4.35616 6.43636L4.45205 6.62727ZM11.6438 11.1136C10.4932 11.1136 9.43836 10.6364 8.57534 9.87273L8 10.6364C8.9589 11.5909 10.3014 12.0682 11.6438 12.0682V13.5L15 11.5909L11.6438 9.68182V11.1136ZM11.6438 5.38636V6.81818L15 4.90909L11.6438 3V4.43182C10.1096 4.43182 8.57534 5.1 7.61644 6.34091L4.35616 10.0636C3.49315 11.0182 2.24658 11.5909 1 11.5909V12.5455C2.53425 12.5455 4.06849 11.8773 5.0274 10.6364L8.28767 6.91364C9.15068 5.95909 10.3973 5.38636 11.6438 5.38636Z" />
+                        </svg>
+                        <img src="./img/Back.svg" alt="" class="prev-btn2">
+                        <img src="./img/Play.svg" alt="" class="play2">
+                        <img src="./img/pause.svg" alt="" class="pause2">
+                        <img src="./img/Forward.svg" alt="" class="next-btn2">
+                        <img width="16px" height="16px" src="./img/repeat-once.svg" alt="" class="repeat-once2">
+                        <svg class="repeat-btn2" viewBox="0 0 16 16 " width="16" height="16" fill="white"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 4.5H10.5V6L14 4L10.5 2V3.5H6C3.5 3.5 1.5 5.5 1.5 8C1.5 8.6 1.6 9.2 1.9 9.8L2.8 9.3C2.6 8.9 2.5 8.5 2.5 8C2.5 6.1 4.1 4.5 6 4.5ZM15.1 6.2L14.2 6.7C14.4 7.1 14.5 7.5 14.5 8C14.5 9.9 12.9 11.5 11 11.5H6.5V10L3 12L6.5 14V12.5H11C13.5 12.5 15.5 10.5 15.5 8C15.5 7.4 15.4 6.8 15.1 6.2Z" />
+                        </svg>
+                    </div>
+                    <div class="prg2">
+                        <p class="left-timer2">0:00</p>
+                        <div class="sl-range1">
+                            <div class="progbar3">
+                                <div class="inprogbar3"></div>
+                            </div>
+
+                        </div>
+
+                        <p class="rg-timer2">0:00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="player">
+
+
+
+            <div class="mobile">
+                <div class="sl-range1">
+                    <div class="progbar2">
+                        <div class="inprogbar2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-play">
+
+                <img src="./img/Play.svg" alt="" class="mob-play">
+                <img src="./img/pause.svg" alt="" class="mob-pause">
+            </div>
+
+
+
+
+            <div class="pl-left">
+                <img src="#" alt="" class="album-src">
+                <div class="pl-left-txt">
+                    <p class="nazv"></p>
+                    <p class="arts"></p>
+                </div>
+                <div class="pl-lf-icons">
+                    <img src="./img/plus.svg" alt="">
+                    <img src="./img/list.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="pl-center">
+                <div class="top-cn-icons">
+                    <svg class="random" title="random" width="16" height="16" viewBox="0 0 16 16" fill="white"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.45205 6.62727L5.12329 5.86364C4.06849 4.62273 2.53425 3.95455 1 3.95455V4.90909C2.24658 4.90909 3.49315 5.48182 4.35616 6.43636L4.45205 6.62727ZM11.6438 11.1136C10.4932 11.1136 9.43836 10.6364 8.57534 9.87273L8 10.6364C8.9589 11.5909 10.3014 12.0682 11.6438 12.0682V13.5L15 11.5909L11.6438 9.68182V11.1136ZM11.6438 5.38636V6.81818L15 4.90909L11.6438 3V4.43182C10.1096 4.43182 8.57534 5.1 7.61644 6.34091L4.35616 10.0636C3.49315 11.0182 2.24658 11.5909 1 11.5909V12.5455C2.53425 12.5455 4.06849 11.8773 5.0274 10.6364L8.28767 6.91364C9.15068 5.95909 10.3973 5.38636 11.6438 5.38636Z" />
+                    </svg>
+                    <img src="./img/Back.svg" alt="" class="prev-btn">
+                    <img src="./img/Play.svg" alt="" class="play">
+                    <img src="./img/pause.svg" alt="" class="pause">
+                    <img src="./img/Forward.svg" alt="" class="next-btn">
+                    <img width="16px" height="16px" src="./img/repeat-once.svg" alt="" class="repeat-once">
+                    <svg class="repeat-btn" viewBox="0 0 16 16 " width="16" height="16" fill="white"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6 4.5H10.5V6L14 4L10.5 2V3.5H6C3.5 3.5 1.5 5.5 1.5 8C1.5 8.6 1.6 9.2 1.9 9.8L2.8 9.3C2.6 8.9 2.5 8.5 2.5 8C2.5 6.1 4.1 4.5 6 4.5ZM15.1 6.2L14.2 6.7C14.4 7.1 14.5 7.5 14.5 8C14.5 9.9 12.9 11.5 11 11.5H6.5V10L3 12L6.5 14V12.5H11C13.5 12.5 15.5 10.5 15.5 8C15.5 7.4 15.4 6.8 15.1 6.2Z" />
+                    </svg>
+                </div>
+                <div class="prg">
+                    <p class="left-timer">0:00</p>
+                    <div class="sl-range1">
+                        <div class="progbar">
+                            <div class="inprogbar"></div>
+                        </div>
+
+                    </div>
+
+                    <p class="rg-timer">0:00</p>
+                </div>
+            </div>
+
+            <div class="pl-r-right">
+                <img src="./img/Listening on.svg" alt="">
+                <div class="sl-range">
+                    <span class="bar"><span class="fill"></span></span>
+                    <input type="range" id="rang" class="rang valume-slider" min="0" max="100" value="100">
+                </div>
+                <img src="./img/Full Screen.svg" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.rawgit.com/briangonzalez/rgbaster.js/b2fb235b/rgbaster.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>

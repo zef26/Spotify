@@ -1,0 +1,861 @@
+@media only screen and (max-width:1480px){
+    .container{
+        width: 95%;
+    }
+   
+    
+}
+@media only screen and (max-width:1450px){
+    .search-items img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width:1377px){
+    .container{
+        width: 90%;
+    }
+    .box{
+        width: 170px;
+    }
+    .box img{
+        width: 155px;
+        height: 155px;
+    }
+    .box-playlist{
+        width: 170px;
+    }
+    .box-playlist img:nth-child(1){
+        width: 155px;
+        height: 155px;
+    }
+    .wrap1{
+        gap: 30px;
+    }
+    .plays-btn{
+        width: 300px;
+    }
+    .search-items img{
+        width: 200px;
+        height: 200px;
+    }
+    .plays-btn{
+        width: 250px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:1323px){
+    
+    .box{
+        width: 160px;
+        height: 234px;
+    }
+    .box img{
+        width: 140px;
+        height: 140px;
+    }
+    .box-playlist{
+        width: 160px;
+        height: 234px;
+    }
+    .box-playlist img:nth-child(1){
+        width: 140px;
+        height: 140px;
+    }
+    .two-pg{
+        height: 200px !important;
+    }
+    .playlist-wrapper{
+
+        flex-wrap: wrap;
+    }
+    .date-block{
+        display: none;
+    }
+    .name-isp3{
+        display: none;
+    }
+    .album{
+        left: 46%;
+    }
+    .weekly-txt h3{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width:1267px){
+.wrap1{
+    flex-wrap: wrap !important;
+}
+.search-items img{
+    width: 180px;
+    height: 180px;
+}
+.search-items{
+    justify-content: center;
+}
+.search-txt h3{
+    text-align: center;
+}
+.weekly-txt h3{
+    font-size: 65px;
+}
+.box-playlist{
+    width: 150px;
+    height: 18 px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box-playlist img:nth-child(1){
+    width: 130px;
+    height: 130px;
+}
+.box-playlist p {
+    font-size: 12px;
+}
+.wrap-bottom img{
+    width: 14px;
+}
+.hip-hop h3{
+    font-size: 26px;
+}
+}
+@media only screen and (max-width:1211px){
+    .plays-btn{
+        width: 200px;
+        font-size: 14px;
+        gap: 18px;
+    }
+    .progbar{
+        width: 450px;
+    }
+    .weekly-txt h3{
+        font-size: 55px;
+    }
+    .wrap1{
+        justify-content: flex-start;
+        gap: 34px;
+    }
+}
+@media only screen and (max-width:1110px){
+   .friends-activ{
+    display: none;
+   }
+   .content{
+    left: 0;
+    padding-left: 40px;
+    padding-top: 50px;
+   }
+   .left-aside{
+    display: none;
+   }
+   header{
+    margin-left: 0;
+    padding-right: 0;
+    z-index: 5;
+   }
+   .container{
+    padding-left: 0;
+   }
+   .acount{
+    margin-right: 10px;
+   }
+   .plays-btn{
+    width: 250px;
+    height: 54px;
+   }
+   .plays-btn img{
+height: 54px;
+   }
+   .progbar{
+    width: 300px;
+    height: 3px;
+    
+}
+.pl-left{
+    width: 150px !important;
+}
+.wrap1{
+    width: 100%;
+    justify-content: space-between;
+    /* gap: 0px; */
+    gap: unset ;
+}
+.brg-menu{
+    display: flex;
+    margin-right: 20px;
+}
+.acount{
+
+    margin-right: 0;
+}
+.profile {
+    margin-right: 20px;
+    display: none;
+}
+header{
+    height: 58px;
+}
+
+.srch-icon{
+    width: 14px;
+    height: 14px;
+    margin-top: 6px;
+}
+.inp-srch{
+    width: 200px !important;
+    height: 26px;
+    font-size: 10px;
+}
+.player{
+    height: 56px;
+    padding: 14px 20px;
+}
+.top-cn-icons img:nth-child(3){
+    width: 18px;
+    height: 18px;
+}
+.pause{
+    width: 18px !important;
+    height: 18px !important;
+}
+.top-cn-icons img{
+    width: 13px;
+    height: 13px ;
+}
+.random{
+    width: 13px;
+    height: 13px;
+}
+
+.prg{
+    margin-top: 3px;
+    font-size: 8px;
+}
+.album-src{
+    width: 38px;
+    height: 38px;
+}
+.nazv{
+    font-size: 9px;
+}
+.arts{
+
+    font-size: 7px;
+}
+
+.pl-lf-icons img{
+ width: 13px;
+ }
+ .pl-r-right img{
+width: 12px;
+ }
+ .rang{
+    width: 62px;
+    height: 3px;
+ }
+ .bar{
+    height: 3px;
+ }
+.zag1{
+    font-size: 22px;
+}
+.all1{
+    font-size: 8px;
+}
+.head-libar p{
+    font-size: 10px;
+}
+.hover-libar{
+    width: 69px;
+    height: 29px;
+}
+.green-dot{
+    width: 44px;
+    height: 44px;
+    
+}
+.green-dot img{
+    width: 12.72px !important;
+    height: 15.25px !important;
+    
+}
+.left-week-icons img{
+    width: 22px;
+}
+.custom-order{
+    width: 88px;
+    height: 22px;
+    font-size: 8px !important;
+}
+.custom-order img{
+    width: 4px;
+    margin-right: -5px;
+}
+.fill-btn{
+    width: 26px !important;
+    height: 26px !important;
+
+}
+.block{
+    height: 52px;
+}
+.block img{
+    width: 38px;
+    height: 38px;
+}
+ .name-mus{
+    font-size: 11px;
+ }
+ .name-isp{
+    font-size: 9px;
+ }
+ .name-isp2{
+    font-size: 9px;
+ }
+ .name-isp3{
+    font-size: 9px;
+ }
+ .name-isp4{
+    font-size: 9px;
+ }
+ .cifr{
+    font-size: 11px;
+ }
+ .txts-weekly p{
+    font-size: 8px;
+ }
+ .txts-weekly img{
+    width: 13px;
+    height: 13px;
+    
+}
+.srch img{
+    width: 24px;
+}
+.as-btn:hover{
+    background: none; 
+    opacity:1 ;
+}
+.bg-btns{
+    background: none
+}
+.brg-box{
+    display: flex;
+}
+.all-acount{
+    margin-right: 20px;
+}
+
+.one{
+    font-size: 10px;
+}
+.profile{
+    margin-right: 0px;
+}
+.my-acc{
+    width: 93px;
+    height: 36px;
+    
+}
+.my-acc img{
+    width: 26px;
+    height: 26px;
+}
+.name-your{
+    font-size: 10px;
+}
+.kolokol{
+    width: 36px;
+    height: 36px;
+}
+.kolokol img{
+    width: 14px;
+    height: 14px;
+}
+.weekly-head img:nth-child(1){
+    width: 148px;
+    height: 148px;
+
+}
+
+}
+@media only screen and (max-width:992px){
+    .wrap1{
+        display: flex;
+        gap: 36px;
+    }
+    .plays-btn{
+        width: 220px;
+        height: 44px;
+       }
+       .plays-btn img{
+    height: 44px;
+       }
+       .brg-box{
+        height: 140px;
+       }
+       /* .pl-left{
+        display: none;
+       } */
+       .pl-lf-icons{
+        display: none !important;
+       }
+       .pl-r-right{
+        display: none;
+       }
+       .pl-center{
+        display: none;
+       }
+       .mobile{
+        display: block;
+       }
+       .pl-left{
+        margin-top: 5px;
+       }
+       .mobile-play{
+        display: flex !important;
+       }
+       .mob-type2{
+        display: block;
+       }
+       .repeat-btn2{
+        width: 20px !important;
+        height: 20px !important;
+       }
+
+}
+@media only screen and (max-width:879px){
+    .box{
+        width: 158px;
+        height: 194px;
+    }
+    .box img{
+        width: 140px;
+        height: 140px;
+    }
+    .box p{
+        font-size: 12px !important;
+    }
+    .imena{
+        display: none;
+    }
+    .wrap1{
+        display: flex;
+        justify-content: flex-start;
+        gap: 35px;
+    }
+}
+@media only screen and (max-width:862px){
+    .wrap1{
+        gap: 28px !important;
+       
+    }
+    .plays-btn{
+        width: 200px;
+        height: 44px;
+       }
+       .album-block{
+        display: none;
+       }
+       .name-isp2{
+        display: none;
+       }
+       .as-btn{
+      width: fit-content;
+        /* background-color: red; */
+       }
+       .brg-box{
+        display: flex;justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+       }
+
+}
+
+@media only screen and (max-width:738px){
+    .plays-btn{
+        width: 180px;
+        height: 44px;
+        font-size: 12px !important;
+       }
+       .liked-songs h3{
+        font-size: 36px !important;
+       }
+       .weekly-txt{
+        gap: 10px ;
+        justify-content: center;
+       }
+       .weekly-txt h3{
+        font-size: 32px;
+       }
+       
+       .album-mob{
+        width: 430px;
+        height: 390px;
+       }
+       .progbar3{
+        width: 430px !important;
+       }
+       .top-cn-icons2{
+        margin-top: 25px;
+       }
+       .like-mob2{
+        left: 20%;
+       }
+}
+
+@media only screen and (max-width:678px){
+    .plays-btn{
+        width: 160px;
+        height: 40px;
+        font-size: 12px !important;
+       }
+       .plays-btn img{
+        height: 40px;
+       }
+       .wrap1{
+        display: flex;
+        gap: 20px !important;
+        justify-content: center;
+    }
+    .wrap-mal{
+        display: flex;
+        gap: 20px !important;
+        justify-content: center !important;
+    }
+    .all1{
+        display: none;
+    }
+    .txt-cont1 h3{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .brg-menu span{
+        width: 25px;
+
+    }
+    .centers{
+        width: 15px;
+    }
+    .content{
+        padding-left: 0px !important;
+       }
+       .libary{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 40px;
+       }
+       .playlist-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+       .hh-head{
+        justify-content: center;
+       }
+       .liked-songs-cont{
+        padding-left: 55px;
+       }
+       .liksc{
+        padding-left: 55px !important;
+       }
+       .liksch{
+        margin-left: 55px;
+       }
+       
+
+}
+@media only screen and (max-width:612px){
+    .plays-btn{
+        width: 140px;
+        height: 35px;
+        font-size: 10px !important;
+       }
+       .plays-btn img{
+        height: 35px;
+       }
+       .brg-box img{
+        width: 16px !important;
+        height: 16px !important;
+       }
+       .brg-box p{
+        font-size: 12px !important;
+       }
+       .brg-box{
+        display: flex;
+        padding-left:50px ;
+        padding-right: 50px;
+        gap: 0;
+       }
+       
+       .head-libar{
+        display: none !important;
+       }
+       .content::-webkit-scrollbar {
+        width: 4px !important;
+    }
+    .reg-hider h3{
+        font-size: 32px;
+        margin-bottom: 35px;
+
+    }
+    label input {
+        width: 380px ;
+        height: 40px;
+        font-size: 14px;
+        
+    }
+    .reg-btn {
+        width: 120px;
+        height: 35px;
+        font-size: 16px;
+        
+    }
+    .log-btn{
+        width: 120px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .reg-form{
+        height: 407px;
+    }
+    .login-form{
+        height: 407px;
+    }
+    .liked-songs-cont{
+        padding-left: 5px;
+       }
+       .liksc{
+        padding-left: 5px !important;
+       }
+       .liksch{
+        margin-left: 5px;
+       }
+
+
+}
+@media only screen and (max-width:560px){
+    .zag1{
+        font-size: 18px !important;
+    }
+    .srch-icon{
+        width: 10px;
+        height: 10px;
+        margin-top: 8px;
+    }
+    .inp-srch{
+        width: 150px !important;
+        height: 26px;
+        font-size: 6px;
+    }
+    .liked-songs h3{
+        font-size: 28px !important;
+       }
+       .plays-btn{
+        width: 120px;
+        height: 30px;
+        font-size: 8px !important;
+       }
+       .plays-btn img{
+        height: 30px;
+       }
+       .album-mob{
+        width: 340px;
+        height: 320px;
+       }
+       .progbar3{
+        width: 340px !important;
+       }
+       .prg2{
+        margin-top: 35px;
+       }
+       .top-weekly h3{
+        font-size: 20px !important;
+    }
+    .weekly-txt p {
+        font-size: 14px;
+    }
+    .left-week-icons img:nth-child(4){
+        display: none;
+    }
+    .zag1{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width:500px){
+    .one{
+        width: 40px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .brg-menu{
+        right: 100px;
+    }
+    .album-mob{
+        width: 280px;
+        height: 260px;
+       }
+       .progbar3{
+        width: 260px !important;
+       }
+       .top-cn-icons2{
+        margin-top: 55px;
+       }
+       .plays-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px !important;
+       }
+       .plays-btn img{
+        height: 50px;
+       }
+       .srch{
+        gap: 4px;
+       }
+       .plays-btn p{
+        display: none;
+       }
+       .plays-btn{
+        width: fit-content;
+       }
+       .as-btn{
+        width: fit-content;
+       }
+       .left-week-icons img:nth-child(3){
+        display: none;
+    }
+    .brg-menu{
+       right: 150px; 
+    }
+    .inp-srch{
+        display: none;
+       }
+       .srch-icon{
+        display: none;
+       }
+
+       .reg-hider h3{
+        font-size: 26px;
+
+    }
+    label input {
+        width: 310px ;
+        height: 40px;
+        font-size: 12px;
+        
+    }
+    .reg-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        
+    }
+    .log-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .reg-form{
+        height: 383px;
+    }
+    .login-form{
+        height: 383px;
+    }
+    .login-container{
+        width: 310px;
+    }
+    .registor-container{
+        width: 310px;
+    }
+    
+}
+@media only screen and (max-width:422px){
+    .like-item{
+        width: 20px !important;
+    }
+    .box{
+        width: 258px !important;
+        height: 274px !important;
+    }
+    .nazvs-mob{
+        
+    padding: 0 20px;
+    }
+    .box img{
+        width: 238px;
+        height: 230px;
+    }
+    .box p{
+        font-size: 12px !important;
+    }
+    .box-playlist{
+        width: 258px !important;
+        height: 274px !important; 
+        
+    }
+    .box-playlist img:nth-child(1){
+        width: 238px;
+        height: 230px;
+    }
+    .playlist-wrapper{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .libary{
+        padding: 20px 0;
+    }
+    .album-mob{
+        width: 200px;
+        height: 200px;
+        margin-top: 80px;
+       }
+       .progbar3{
+        width: 160px !important;
+       }
+       .name-isp4{
+        display: none;
+       }
+       .txts-weekly :nth-child(4){
+        display: none !important;
+       }
+       .weekly-txt p :nth-child(3){
+        font-size: 6px !important;
+       }
+       .wrap1{
+        margin-left: 6%;
+       }
+       .weekend-head{
+        /* margin-left: -150px !important; */
+        padding-left: 0 !important;
+        margin: 0 auto;
+       }
+       
+       .block{
+        width: 100%;
+       }
+       
+       .brg-box img{
+        width: 13px !important;
+        height: 13px !important;
+       }
+       .brg-box p{
+        font-size: 9px !important;
+       }
+       .brg-box{
+        height: 90px !important;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+       }
+       .like-mob2{
+        left: 5%;
+       }
+       .like-item{
+        right: 5px;
+       }
+       .dis-like{
+        right:5px
+       }
+    }
